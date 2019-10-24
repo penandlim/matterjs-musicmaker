@@ -193,7 +193,7 @@ $(function() {
 
     // Tone.Transport.schedule(drumLoop, 0);
 
-    // setupSynthLoop();
+    setupSynthLoop();
 
     Tone.Transport.loop = true;
     Tone.Transport.loopEnd = Tone.Time("1m");
